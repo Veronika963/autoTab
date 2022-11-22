@@ -30,6 +30,10 @@ textarea {
     background-color: transparent;
 }
 
+body {
+    padding-top: 34px;
+}
+
 .container {
     max-width: 1111px;
     margin: 0 auto;
@@ -38,6 +42,9 @@ textarea {
 header {
     background: #F5F7FA;
     padding: 9px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 header .container {
