@@ -8,6 +8,7 @@
     <meta name="description" content="qqq">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="dist/hamburgers.css" rel="stylesheet">
     <title>autoTab</title>
 </head>
 
@@ -29,6 +30,11 @@
                         <li class="menu-item">Контакти</li>
                     </a>
                 </ul>
+                <button class="hamburger hamburger--squeeze" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
             </div>
             <div>
                 <ul class="acc-login">
@@ -63,8 +69,8 @@
                     <option value="2">По номеру</option>
                 </select>
             </div>
-            <input type="text" placeholder="Номер запчастини" class="search-input">
-            <button class="btn-search"><img src="img/search.svg" class="img-search">Пошук</button>
+                <input type="text" placeholder="Номер запчастини" class="search-input">
+                <button class="btn-search"><img src="img/search.svg" class="img-search">Пошук</button>
         </div>
     </section>
     <main>
@@ -124,9 +130,8 @@
                         <a href="#">
                             <li class="menu-categorie">Каталог товарів</li>
                         </a>
-                        <img src="img/line.svg" alt="line">
                         <a href="#">
-                            <li class="menu-categorie">Запчастини для Acura</li>
+                            <li class="menu-categorie"> <img src="img/line.svg" alt="line" class="line-categorie">Запчастини для Acura</li>
                         </a>
                     </ul>
                 </div>
@@ -155,85 +160,106 @@
                 </div>
                 <div class="section-products">
                     <div class="products-item">
-                        <img src="./img/img-rack.png" alt="rack" class="img-rack">
-                        <div class="product-description">
-                            <p class="product-item-caption">Стійка переднього стабілізатора</p>
-                            <p class="product-item-text">Опора кульова Camry (91-01)/ES250 (89-91)/<br>
-                                ES300 (91-97)/RX300 (00-03)</p>
-                            <p class="product-item-number"><span class="item-number-car">900210-АБ-18</span> - Toyota
-                            </p>
+                        <div class="top-part-product">
+                            <img src="./img/img-rack.png" alt="rack" class="img-rack">
+                            <div class="product-description">
+                                <p class="product-item-caption">Стійка переднього стабілізатора</p>
+                                <p class="product-item-text">Опора кульова Camry (91-01)/ES250 (89-91)/<br>
+                                    ES300 (91-97)/RX300 (00-03)</p>
+                                <p class="product-item-number"><span class="item-number-car">900210-АБ-18</span> -
+                                    Toyota
+                                </p>
+                            </div>
                         </div>
-                        <div class="product-item-price">
-                            <p class="products-price">260 грн.</p>
-                            <p class="products-available">В наявності</p>
-                        </div>
-                        <div class="product-buy">
-                            <a href="#" class="products-address"><img src="./img/icon-mapa.svg" alt="mapa"> CПБ,
-                                Индустреальный пр. 47</a>
-                            <button class="btn-busket"><img src="./img/basket-white.svg" alt="basket"
-                                    class="img-btn-busket"> В корзину</button>
-                        </div>
-                    </div>
-                    <div class="products-item">
-                        <img src="./img/img-rack.png" alt="rack" class="img-rack">
-                        <div class="product-description">
-                            <p class="product-item-caption">Стійка переднього стабілізатора</p>
-                            <p class="product-item-text">Опора кульова Camry (91-01)/ES250 (89-91)/<br>
-                                ES300 (91-97)/RX300 (00-03)</p>
-                            <p class="product-item-number"><span class="item-number-car">900210-АБ-18</span> - Toyota
-                            </p>
-                        </div>
-                        <div class="product-item-price">
-                            <p class="products-price">260 грн.</p>
-                            <p class="products-available">В наявності</p>
-                        </div>
-                        <div class="product-buy">
-                            <a href="#" class="products-address"><img src="./img/icon-mapa.svg" alt="mapa"> CПБ,
-                                Индустреальный пр. 47</a>
-                            <button class="btn-busket"><img src="./img/basket-white.svg" alt="basket"
-                                    class="img-btn-busket"> В корзину</button>
+                        <div class="bottom-part-product">
+                            <div class="product-item-price">
+                                <p class="products-price">260 грн.</p>
+                                <p class="products-available">В наявності</p>
+                            </div>
+                            <div class="product-buy">
+                                <a href="#" class="products-address"><img src="./img/icon-mapa.svg" alt="mapa"> CПБ,
+                                    Индустреальный пр. 47</a>
+                                <button class="btn-busket"><img src="./img/basket-white.svg" alt="basket"
+                                        class="img-btn-busket"> В корзину</button>
+                            </div>
                         </div>
                     </div>
                     <div class="products-item">
-                        <img src="./img/img-rack.png" alt="rack" class="img-rack">
-                        <div class="product-description">
-                            <p class="product-item-caption">Стійка переднього стабілізатора</p>
-                            <p class="product-item-text">Опора кульова Camry (91-01)/ES250 (89-91)/<br>
-                                ES300 (91-97)/RX300 (00-03)</p>
-                            <p class="product-item-number"><span class="item-number-car">900210-АБ-18</span> - Toyota
-                            </p>
+                        <div class="top-part-product">
+                            <img src="./img/img-rack.png" alt="rack" class="img-rack">
+                            <div class="product-description">
+                                <p class="product-item-caption">Стійка переднього стабілізатора</p>
+                                <p class="product-item-text">Опора кульова Camry (91-01)/ES250 (89-91)/<br>
+                                    ES300 (91-97)/RX300 (00-03)</p>
+                                <p class="product-item-number"><span class="item-number-car">900210-АБ-18</span> -
+                                    Toyota
+                                </p>
+                            </div>
                         </div>
-                        <div class="product-item-price">
-                            <p class="products-price">260 грн.</p>
-                            <p class="products-available">В наявності</p>
-                        </div>
-                        <div class="product-buy">
-                            <a href="#" class="products-address"><img src="./img/icon-mapa.svg" alt="mapa"> CПБ,
-                                Индустреальный пр. 47</a>
-                            <button class="btn-busket"><img src="./img/basket-white.svg" alt="basket"
-                                    class="img-btn-busket"> В корзину</button>
+                        <div class="bottom-part-product">
+                            <div class="product-item-price">
+                                <p class="products-price">260 грн.</p>
+                                <p class="products-available">В наявності</p>
+                            </div>
+                            <div class="product-buy">
+                                <a href="#" class="products-address"><img src="./img/icon-mapa.svg" alt="mapa"> CПБ,
+                                    Индустреальный пр. 47</a>
+                                <button class="btn-busket"><img src="./img/basket-white.svg" alt="basket"
+                                        class="img-btn-busket"> В корзину</button>
+                            </div>
                         </div>
                     </div>
                     <div class="products-item">
-                        <img src="./img/img-rack.png" alt="rack" class="img-rack">
-                        <div class="product-description">
-                            <p class="product-item-caption">Стійка переднього стабілізатора</p>
-                            <p class="product-item-text">Опора кульова Camry (91-01)/ES250 (89-91)/<br>
-                                ES300 (91-97)/RX300 (00-03)</p>
-                            <p class="product-item-number"><span class="item-number-car">900210-АБ-18</span> - Toyota
-                            </p>
+                        <div class="top-part-product">
+                            <img src="./img/img-rack.png" alt="rack" class="img-rack">
+                            <div class="product-description">
+                                <p class="product-item-caption">Стійка переднього стабілізатора</p>
+                                <p class="product-item-text">Опора кульова Camry (91-01)/ES250 (89-91)/<br>
+                                    ES300 (91-97)/RX300 (00-03)</p>
+                                <p class="product-item-number"><span class="item-number-car">900210-АБ-18</span> -
+                                    Toyota
+                                </p>
+                            </div>
                         </div>
-                        <div class="product-item-price">
-                            <p class="products-price">260 грн.</p>
-                            <p class="products-available">В наявності</p>
-                        </div>
-                        <div class="product-buy">
-                            <a href="#" class="products-address"><img src="./img/icon-mapa.svg" alt="mapa"> CПБ,
-                                Индустреальный пр. 47</a>
-                            <button class="btn-busket"><img src="./img/basket-white.svg" alt="basket"
-                                    class="img-btn-busket"> В корзину</button>
+                        <div class="bottom-part-product">
+                            <div class="product-item-price">
+                                <p class="products-price">260 грн.</p>
+                                <p class="products-available">В наявності</p>
+                            </div>
+                            <div class="product-buy">
+                                <a href="#" class="products-address"><img src="./img/icon-mapa.svg" alt="mapa"> CПБ,
+                                    Индустреальный пр. 47</a>
+                                <button class="btn-busket"><img src="./img/basket-white.svg" alt="basket"
+                                        class="img-btn-busket"> В корзину</button>
+                            </div>
                         </div>
                     </div>
+                    <div class="products-item">
+                        <div class="top-part-product">
+                            <img src="./img/img-rack.png" alt="rack" class="img-rack">
+                            <div class="product-description">
+                                <p class="product-item-caption">Стійка переднього стабілізатора</p>
+                                <p class="product-item-text">Опора кульова Camry (91-01)/ES250 (89-91)/<br>
+                                    ES300 (91-97)/RX300 (00-03)</p>
+                                <p class="product-item-number"><span class="item-number-car">900210-АБ-18</span> -
+                                    Toyota
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bottom-part-product">
+                            <div class="product-item-price">
+                                <p class="products-price">260 грн.</p>
+                                <p class="products-available">В наявності</p>
+                            </div>
+                            <div class="product-buy">
+                                <a href="#" class="products-address"><img src="./img/icon-mapa.svg" alt="mapa"> CПБ,
+                                    Индустреальный пр. 47</a>
+                                <button class="btn-busket"><img src="./img/basket-white.svg" alt="basket"
+                                        class="img-btn-busket"> В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
